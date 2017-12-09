@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your captcha:");
-        int captcha = scanner.nextInt();
+        String captcha = scanner.nextLine();
         int solution = Solution.sumOfCaptcha(captcha);
         System.out.println(solution);
     }
